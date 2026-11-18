@@ -96,7 +96,7 @@ public class ProductAppGUI extends JFrame {
 
         double price = Double.parseDouble(priceText);
         double percentage = Double.parseDouble(percentageText);
-        double commission = estateAgent.CalculateCommission(priceText, percentageText);
+        double commission = .CalculateCommission(priceText, percentageText);
 
         ProductAppGUI.
         ProductAppGUI.

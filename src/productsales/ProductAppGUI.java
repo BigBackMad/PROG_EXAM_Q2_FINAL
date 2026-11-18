@@ -134,31 +134,16 @@ public class ProductAppGUI extends JFrame {
     }
 
     private void clearForm() {
-        txtCustomerName.setText(0);
-        cmbProducts.setSelectedIndex("");
+        txtCustomerName.setText("");
+        cmbProducts.setSelectedIndex(0);
         txtPrice.setText("");
     }
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
     public static void main(String[] args) {
+        SwingUtilities.invokeLater(() -> new ProductAppGUI().setVisible(true));
+    }
 
     }
 }
